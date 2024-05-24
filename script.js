@@ -54,14 +54,19 @@ document.addEventListener("DOMContentLoaded", function() {
     // Event listener for hamburger icon click
     hamburger.addEventListener("click", function() {
         // Toggle the visibility of the navigation links
-        if (navmobile.style.display === "block") {
+        if (navmobile.style.display === "flex") {
             navmobile.style.display = "none"; // Show desktop navigation links
            // Hide mobile navigation links
         } else {
            // Hide desktop navigation links
-            navmobile.style.display = "block"; // Show mobile navigation links
+            navmobile.style.display = "flex"; // Show mobile navigation links
         }
     });
+
+    if(window.innerWidth > 768)
+    {
+        navmobile,style.display="none"
+    }
 });
 
   
