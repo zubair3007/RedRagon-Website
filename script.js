@@ -30,3 +30,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
     showSlide(currentSlide);
 });
+
+
+
+// For REpsonsive navbar
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     const hamburger = document.querySelector(".hamburger");
+//     const navLinks = document.querySelector(".navmobile");
+
+//     hamburger.addEventListener("click", function() {
+//         navLinks.classList.toggle(".active")
+//     });
+// });
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const hamburger = document.querySelector(".hamburger");
+ 
+    const navmobile = document.querySelector(".navmobile");
+
+    // Event listener for hamburger icon click
+    hamburger.addEventListener("click", function() {
+        // Toggle the visibility of the navigation links
+        if (navmobile.style.display === "block") {
+            navmobile.style.display = "none"; // Show desktop navigation links
+           // Hide mobile navigation links
+        } else {
+           // Hide desktop navigation links
+            navmobile.style.display = "block"; // Show mobile navigation links
+        }
+    });
+});
+
+  
+
+
+

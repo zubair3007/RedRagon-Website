@@ -1,0 +1,55 @@
+
+.about-us{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+p{
+    font-size: 16px;
+    padding-top:20px;
+}
+
+.about{
+    background-color: antiquewhite;
+    height:200px;
+    padding: 2rem;
+
+}
+
+
+
+.mission{
+    background-color: #eedd82;
+        height: 200px;
+        padding:2rem;
+        
+        
+}
+
+
+.values{
+    background-color: #cfead9;
+        height: 200px;
+        padding: 2rem;
+     
+}
+
+.products{
+    background-color: #ddfcf7;
+        height: 200px;
+        padding: 2rem;
+        
+}
+
+.team {
+    background-color:  antiquewhite;
+    height: 200px;
+    padding: 2rem;
+   
+}
+
+
+
+
+
